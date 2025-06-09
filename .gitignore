@@ -1,0 +1,36 @@
+# Arquivos gerados pelo sistema operacional
+Thumbs.db
+.DS_Store
+
+# Pasta de build do CMake
+# Esta é a regra mais importante! Ignora tudo o que o compilador gera.
+/build/
+
+# Arquivos específicos do ambiente de desenvolvimento do Visual Studio
+# Embora fiquem na pasta 'build', é uma boa prática adicioná-los.
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+/Debug/
+/Release/
+/x64/
+/x86/
+
+# Pasta de configurações do VS Code
+# Mantém suas configurações locais fora do repositório.
+/.vscode/
+
+# Binários e bibliotecas compiladas
+*.exe
+*.dll
+*.lib
+*.obj
+*.ilk
+*.pdb
+*.exp
+*.tlog
+
+# Outros arquivos temporários e logs
+*.log
+*.tmp
